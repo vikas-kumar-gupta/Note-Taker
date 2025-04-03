@@ -1,0 +1,23 @@
+{
+  "name": "autope-assessment-project",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start:local": "npm run build && NODE_ENV=local node dist/app.js"
+  },
+  "author": "Vikas Kumar Gupta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "mongodb": "^6.13.1",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
